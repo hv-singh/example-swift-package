@@ -12,8 +12,8 @@ let package = Package(
             targets: ["ExampleSwift"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Alamofire/Alamofire", from: "5.0.0"),
-        .package(url: "https://github.com/apple/swift-argument-parser", from: "1.0.0"),
+        .package(url: "https://github.com/Alamofire/Alamofire.git", from: "5.0.0"),
+        .package(url: "https://github.com/apple/swift-log.git", from: "1.0.0"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -22,7 +22,7 @@ let package = Package(
             name: "ExampleSwift",
             dependencies: [
                 .product(name: "Alamofire", package: "Alamofire"),
-                .product(name: "swift-argument-parser", package: "swift-argument-parser"),
+                .product(name: "Logging", package: "swift-log"),
             ]),
         .testTarget(
             name: "ExampleSwiftTests",
