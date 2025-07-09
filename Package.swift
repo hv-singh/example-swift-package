@@ -3,6 +3,8 @@
 
 import PackageDescription
 
+// change for tag v1.0.2
+
 let package = Package(
     name: "ExampleSwift",
     products: [
