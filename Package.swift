@@ -20,7 +20,10 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "ExampleSwift",
-            dependencies: ["Alamofire", "ArgumentParser"]),
+            dependencies: [
+                .product(name: "Alamofire", package: "Alamofire"),
+                .product(name: "ArgumentParser", package: "swift-argument-parser"),
+            ]),
         .testTarget(
             name: "ExampleSwiftTests",
             dependencies: ["ExampleSwift"]
