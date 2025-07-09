@@ -22,7 +22,7 @@ let package = Package(
             name: "ExampleSwift",
             dependencies: [
                 .product(name: "Alamofire", package: "Alamofire"),
-                .product(name: "ArgumentParser", package: "swift-argument-parser"),
+                .product(name: "swift-argument-parser", package: "swift-argument-parser"),
             ]),
         .testTarget(
             name: "ExampleSwiftTests",
