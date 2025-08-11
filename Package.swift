@@ -12,6 +12,7 @@ import PackageDescription
 // change for tag v4.0-pre+meta
 // change for tag v4.0-pre+meta2
 // change for tag v4.0-pre 
+// change for tag 4.0-pre
 
 let package = Package(
     name: "ExampleSwift",
