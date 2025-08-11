@@ -8,6 +8,7 @@ import PackageDescription
 // change for tag a1.0.4
 // change for tag 3.0.0-pre+meta
 // change for tag v3.0.1-pre+meta
+// change for tag v3.0-pre+meta
 
 let package = Package(
     name: "ExampleSwift",
