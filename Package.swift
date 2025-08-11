@@ -15,6 +15,8 @@ import PackageDescription
 // change for tag 4.0-pre
 // change for tag 3.0.1-pre+abcfoobar
 
+// change for tag v5 
+
 let package = Package(
     name: "ExampleSwift",
     products: [
