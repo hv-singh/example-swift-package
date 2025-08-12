@@ -22,6 +22,7 @@ import PackageDescription
 
 // one more time :(
 // change for tag v6 
+// change for tag v6.0
 
 let package = Package(
     name: "ExampleSwift",
